@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="60dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+    >
+    <include layout="@layout/first_extcontainer" />
+    <TextView
+        android:id="@+id/sleep_time"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trans"
+        android:textSize="20dp"
+        android:text="Sleep Time" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sleep_time"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:text="Hours" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hours"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Set Time" />
+
+
+
+
+</RelativeLayout>

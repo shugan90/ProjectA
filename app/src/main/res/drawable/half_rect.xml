@@ -1,0 +1,29 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:top="0dip">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="30dp" />
+
+            <!-- This is the border color -->
+            <stroke android:width="0dp" android:color="@color/transs" />
+            <solid android:color="#1Affffff" />
+        </shape>
+
+    </item>
+    <item android:bottom="30dip">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <corners android:radius="30dp" />
+            <corners android:bottomLeftRadius="1dp"
+                android:bottomRightRadius="1dp" />
+            <!-- This is the border color -->
+            <stroke android:width="0sp"  android:color="@color/transs" />
+            <solid android:color="#1Affffff" />
+        </shape>
+    </item>
+
+</layer-list>
